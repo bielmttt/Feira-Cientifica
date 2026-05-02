@@ -10,4 +10,5 @@ title.onclick = function() {
 // Close the modal when clicking (x)
 span.onclick = function() {
   modal.style.display = "none";
+  modal.style.animation = "animation: popout 0.4s ease-out forwards;"
 }
