@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-img {
+.img {
     border: 5px solid rgb(0, 195, 255);
     display: block;
     margin-bottom: 1%;
@@ -26,5 +26,80 @@ html {
   border: 3px solid #f1f1f1; 
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #555555; 
+  background: #00eeff; 
+}
+.imagem-container {
+    position: relative;
+}
+
+.imagem-container img {
+    display: block;
+    width: 100%;
+}
+
+.btn-obs {
+    position: absolute;
+    top: 45%;      /* distância do topo da imagem */
+    left: 75%;     /* distância da esquerda */
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none; 
+    width: 20%;
+}
+.btn-obs :hover {
+    cursor: pointer;
+}
+.Link2 {
+    position: absolute;
+    top: 35%;      /* ajuste a posição vertical */
+    left: 20%;     /* ajuste a posição horizontal */
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+    z-index: 10;
+    font-size: clamp(16px, 3vw, 40px);
+}
+.Link3 {
+    position: absolute;
+    top: 42%;      /* ajuste a posição vertical */
+    left: 20%;     /* ajuste a posição horizontal */
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+    z-index: 10;
+    font-size: clamp(16px, 3vw, 40px);
+}
+.Link2 :hover {
+  color: blue;
+}
+.Link3 :hover {
+  color: blue;
+}
+h1  {
+  color: white;
+  position: absolute;
+  font-size: clamp(16px, 3vw, 40px);
+}
+.h1 {
+    top: 47%;
+    left: 14%;
+}
+.h2 {
+  top:53%;
+  left: 16%;
+}
+.h3 {
+  top: 60%;
+  left: 14%;
+}
+.h4 {
+  top: 67%;
+  left: 10%;
+}
+.h5 {
+  top: 74%;
+}
+.h6 {
+  top: 81%;
+  left: 3%;
 }
